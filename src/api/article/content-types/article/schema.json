@@ -21,6 +21,13 @@
       "type": "richtext",
       "default": "Article Body",
       "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

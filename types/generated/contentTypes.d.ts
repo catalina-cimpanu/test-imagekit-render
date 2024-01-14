@@ -380,6 +380,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     body: Attribute.RichText &
       Attribute.Required &
       Attribute.DefaultTo<'Article Body'>;
+    image: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
