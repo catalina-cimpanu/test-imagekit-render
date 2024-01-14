@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "article_title": {
+    "title": {
       "type": "string",
       "required": true,
       "default": "Article Title"
     },
-    "article_body": {
+    "body": {
       "type": "richtext",
       "default": "Article Body",
       "required": true
